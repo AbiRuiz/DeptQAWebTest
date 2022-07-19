@@ -7,5 +7,9 @@ public class HomePage {
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
-    
+
+    public WorkPage clickButtonWork() {
+        driver.findElement(buttonWorkLink).click();
+        return new WorkPage(driver);
+    }
 }

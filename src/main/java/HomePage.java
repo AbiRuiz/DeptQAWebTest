@@ -4,10 +4,6 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
 
     private WebDriver driver;
-
-
-    private By buttonWorkLink = By.xpath("//a[.='Work']");
-    
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }

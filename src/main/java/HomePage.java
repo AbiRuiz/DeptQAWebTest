@@ -31,4 +31,3 @@ public class HomePage {
         }
         return new MenuPage(driver);
     }
-}

@@ -11,7 +11,7 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver","resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://www.deptagency.com/");
